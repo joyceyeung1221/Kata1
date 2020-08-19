@@ -15,10 +15,27 @@ namespace Kata1
             return SumDivisorOf3or5(input);
         }
 
+        public static string Step6()
+        {
+            Console.WriteLine("Select 1 for computing the sum or 2 for the product of 1,...,n");
+            int selection = Convert.ToInt32(Console.ReadLine());
+            int input = RequireUserInput();
+            if (selection == 1) return PrintSum(input).ToString();
+            else if (selection == 2) return ListAllNumbers(input);
+            else return "Not a valid input";
+        }
+
+        private static int RequireUserInput()
+        {
+            Console.WriteLine("Please enter a number");
+            return Convert.ToInt32(Console.ReadLine());
+        }
+
         private static int PrintSum(int input)
         {
             int sum = 0;
-            for (int i = 1; i <= input; i++){
+            for (int i = 1; i <= input; i++)
+            {
                 sum += i;
             }
             return sum;
@@ -37,10 +54,17 @@ namespace Kata1
             return sum;
         }
 
-        private static int RequireUserInput()
+        private static string ListAllNumbers(int input)
         {
-            Console.WriteLine("Please enter a number");
-            return Convert.ToInt32(Console.ReadLine());
+            int[] numbers = new int[input];
+            int i = 1;
+            while (i <= input)
+            {
+                numbers[i - 1] = i;
+                i++;
+            }
+            return String.Join(", ", numbers);
         }
     }
+
 }
