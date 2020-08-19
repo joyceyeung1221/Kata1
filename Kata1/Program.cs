@@ -4,13 +4,44 @@ namespace Kata1
 {
     class Program
     {
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Choose between Step 1 to Step 3");
+            int input = Convert.ToInt32(Console.ReadLine());
+            User currentUser;
+            switch (input)
+            {
+                case 1:
+                    Console.WriteLine("Hello World!");
+                    break;
+                case 2:
+                    currentUser = greeting();
+                    currentUser.greetUser();
+                    break;
+                case 3:
+                    currentUser = greeting();
+                    string[] mentors = { "Jay", "Thi" };
+                    if (Array.Exists(mentors, e => e == currentUser.Name))
+                    {
+                        currentUser.greetUser();
+                    }
+                    else
+                    {
+                        Console.WriteLine("Nah");
+                    }
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        static User greeting()
+        {
             Console.WriteLine("What's your name?");
             User currenUser = new User(Console.ReadLine());
-            currenUser.greetUser();
-
+            return currenUser;
         }
+
     }
 }
