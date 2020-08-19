@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{2395C529-5828-4E13-8AAD-6F9C0C658D3F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Kata1/HelloWorld.cs">
+    <Files>
+      <File FileName="Kata1/Program.cs" Line="13" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Kata1" expanded="True">
+            <Node name="Kata1" expanded="True">
+              <Node name="HelloWorld.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Kata1 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
