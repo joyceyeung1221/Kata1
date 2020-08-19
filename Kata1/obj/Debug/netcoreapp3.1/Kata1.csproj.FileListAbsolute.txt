@@ -1,0 +1,12 @@
+/Users/Joyce.Yeung/Projects/Kata1/Kata1/bin/Debug/netcoreapp3.1/Kata1.deps.json
+/Users/Joyce.Yeung/Projects/Kata1/Kata1/bin/Debug/netcoreapp3.1/Kata1.runtimeconfig.json
+/Users/Joyce.Yeung/Projects/Kata1/Kata1/bin/Debug/netcoreapp3.1/Kata1.runtimeconfig.dev.json
+/Users/Joyce.Yeung/Projects/Kata1/Kata1/bin/Debug/netcoreapp3.1/Kata1.dll
+/Users/Joyce.Yeung/Projects/Kata1/Kata1/bin/Debug/netcoreapp3.1/Kata1.pdb
+/Users/Joyce.Yeung/Projects/Kata1/Kata1/obj/Debug/netcoreapp3.1/Kata1.csprojAssemblyReference.cache
+/Users/Joyce.Yeung/Projects/Kata1/Kata1/obj/Debug/netcoreapp3.1/Kata1.AssemblyInfoInputs.cache
+/Users/Joyce.Yeung/Projects/Kata1/Kata1/obj/Debug/netcoreapp3.1/Kata1.AssemblyInfo.cs
+/Users/Joyce.Yeung/Projects/Kata1/Kata1/obj/Debug/netcoreapp3.1/Kata1.csproj.CoreCompileInputs.cache
+/Users/Joyce.Yeung/Projects/Kata1/Kata1/obj/Debug/netcoreapp3.1/Kata1.dll
+/Users/Joyce.Yeung/Projects/Kata1/Kata1/obj/Debug/netcoreapp3.1/Kata1.pdb
+/Users/Joyce.Yeung/Projects/Kata1/Kata1/obj/Debug/netcoreapp3.1/Kata1.genruntimeconfig.cache
