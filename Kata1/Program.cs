@@ -4,10 +4,9 @@ namespace Kata1
 {
     class Program
     {
-
         static void Main(string[] args)
         {
-            Console.WriteLine("Choose between Step 1 to Step 3");
+            Console.WriteLine("Choose between Step 1 to Step 9");
             int input = Convert.ToInt32(Console.ReadLine());
             User currentUser;
             switch (input)
@@ -30,6 +29,12 @@ namespace Kata1
                     {
                         Console.WriteLine("Nah");
                     }
+                    break;
+                case 4:
+                    Console.WriteLine(NumbersRelated.Step4());
+                    break;
+                case 5:
+                    Console.WriteLine(NumbersRelated.Step5());
                     break;
                 default:
                     break;
