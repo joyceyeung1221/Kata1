@@ -49,6 +49,8 @@ namespace Kata1
             int numberOfAttempt = 0;
             int? lastInput = null;
             int input = 0;
+
+            Console.WriteLine("-- Here is a guessing game --");
             while (input != secretNumber)
             {
                 input = RequireUserInput();
