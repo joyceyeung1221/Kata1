@@ -25,6 +25,23 @@ namespace Kata1
             else return "Not a valid input";
         }
 
+        public static void Step7()
+        {
+            int i = 1;
+            while (i <= 12)
+            {
+                for (int n = 1; n <= 10; n++)
+                {
+                    Console.WriteLine($"{i} x {n} = {i * n}");
+                    if(n == 10)
+                    {
+                        Console.WriteLine("\n");
+                    }
+                }
+                i++;
+            }
+        }
+
         private static int RequireUserInput()
         {
             Console.WriteLine("Please enter a number");

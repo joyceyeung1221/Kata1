@@ -39,6 +39,9 @@ namespace Kata1
                 case 6:
                     Console.WriteLine(NumbersRelated.Step6());
                     break;
+                case 7:
+                    NumbersRelated.Step7();
+                    break;
                 default:
                     break;
             }
