@@ -42,6 +42,9 @@ namespace Kata1
                 case 7:
                     NumbersRelated.Step7();
                     break;
+                case 8:
+                    NumbersRelated.Step8();
+                    break;
                 default:
                     break;
             }

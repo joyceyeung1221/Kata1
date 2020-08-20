@@ -33,7 +33,7 @@ namespace Kata1
                 for (int n = 1; n <= 10; n++)
                 {
                     Console.WriteLine($"{i} x {n} = {i * n}");
-                    if(n == 10)
+                    if (n == 10)
                     {
                         Console.WriteLine("\n");
                     }
@@ -42,10 +42,40 @@ namespace Kata1
             }
         }
 
+        public static void Step8()
+        {
+            Random getRandom = new Random();
+            int secretNumber = getRandom.Next(100);
+            int numberOfAttempt = 0;
+            int? lastInput = null;
+            int input = 0;
+            while (input != secretNumber)
+            {
+                input = RequireUserInput();
+                Console.WriteLine(secretNumber);
+                if (input == lastInput)
+                {
+                    Console.WriteLine("You have entered the same answer as last attempt :(");
+                }
+                else
+                {
+                    Console.WriteLine(input < secretNumber ? "Too small" : "Too large");
+                    numberOfAttempt++;
+                }
+                lastInput = input;
+            }
+            Console.WriteLine($"Congratulations! You found the correct number on your {numberOfAttempt} attempts!");
+        }
+
         private static int RequireUserInput()
         {
-            Console.WriteLine("Please enter a number");
-            return Convert.ToInt32(Console.ReadLine());
+            int input = 0;
+            do
+            {
+                Console.WriteLine("Please enter a number between 1 - 100");
+                input = Convert.ToInt32(Console.ReadLine());
+            } while (input <= 0 || input > 100);
+            return input;
         }
 
         private static int PrintSum(int input)
