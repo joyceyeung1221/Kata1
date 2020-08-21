@@ -22,13 +22,13 @@ namespace Kata1
                     currentUser.CheckUserName();
                     break;
                 case 4:
-                    Console.WriteLine(NumbersRelated.Step4());
+                    NumbersRelated.Step4();
                     break;
                 case 5:
-                    Console.WriteLine(NumbersRelated.Step5());
+                    NumbersRelated.Step5();
                     break;
                 case 6:
-                    Console.WriteLine(NumbersRelated.Step6());
+                    NumbersRelated.Step6();
                     break;
                 case 7:
                     NumbersRelated.Step7();

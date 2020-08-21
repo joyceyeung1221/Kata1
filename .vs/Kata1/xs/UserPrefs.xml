@@ -1,17 +1,22 @@
-﻿<Properties StartupConfiguration="{2395C529-5828-4E13-8AAD-6F9C0C658D3F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Kata1/HelloWorld.cs">
+﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{2395C529-5828-4E13-8AAD-6F9C0C658D3F}|Default">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Kata1/Program.cs" Line="13" Column="1" />
+      <File FileName="Kata1/Program.cs" Line="9" Column="35" />
+      <File FileName="Kata1/User.cs" Line="37" Column="1" />
+      <File FileName="Kata1/Menu.cs" Line="25" Column="43" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Kata1" expanded="True">
             <Node name="Kata1" expanded="True">
-              <Node name="HelloWorld.cs" selected="True" />
+              <Node name="Menu.cs" selected="True" />
             </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
@@ -21,5 +26,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Kata1 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Kata1 PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

@@ -3,26 +3,28 @@ namespace Kata1
 {
     public class NumbersRelated
     {
-        public static int Step4()
+        public static void Step4()
         {
             int input = RequireUserInput();
-            return PrintSum(input);
+            Console.WriteLine(PrintSum(input));
         }
 
-        public static int Step5()
+        public static void Step5()
         {
             int input = RequireUserInput();
-            return SumDivisorOf3or5(input);
+            Console.WriteLine(SumDivisorOf3or5(input));
         }
 
-        public static string Step6()
+        public static void Step6()
         {
             Console.WriteLine("Select 1 for computing the sum or 2 for the product of 1,...,n");
             int selection = Convert.ToInt32(Console.ReadLine());
             int input = RequireUserInput();
-            if (selection == 1) return PrintSum(input).ToString();
-            else if (selection == 2) return ListAllNumbers(input);
-            else return "Not a valid input";
+            object output;
+            if (selection == 1) output = PrintSum(input).ToString();
+            else if (selection == 2) output = ListAllNumbers(input);
+            else output = "Not a valid input";
+            Console.WriteLine(output);
         }
 
         public static void Step7()
